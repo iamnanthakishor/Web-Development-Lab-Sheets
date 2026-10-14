@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Campus Brew - Order</title>
+    </head>
+    <body background="images/bg_pattern.png">
+            <div align="center">
+            [<a href="index.html">Home </a> |
+            <a href="gallary.html">Coffee Menu & Gallery</a> |
+            <a href="order.html">Place Order</a>]
+            </div>
+            <hr>
+
+            <h1 align="center"> Online Beverage Order Form </h1>
+            <p align="center">Customize your beverage and submit your pickup order directly to our counter..</p>
+
+            <form>
+            <fieldset>
+                <legend>Personal details</legend>
+                    <table border="0" cellpading="4">
+                        <tr>
+                            <td>Full Name:</td>
+                            <td>
+                                <input type="text" name="fname" size="25" placeholder="Nanthakishor">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Student /Staff ID:</td>
+                            <td>
+                                <input type="text" name="id" placeholder="PE/2023/044">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password/Secret PIN:</td>
+                            <td>
+                                <input type="password" name="userpassword">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>University email:</td>
+                            <td>
+                                <input type="email" name="email" size="25" placeholder="nanthak-2004@stu.kln.ac.lk">
+                            </td>
+                        </tr>
+                    </table>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Beverage Preferences</legend>
+                    <table border="0" cellpadding="4">
+                        <tr>
+                            <td>Select Beverage:</td>
+                            <td>
+                                <select name="beverage">
+                                    <option value="espresso">Espresso </option>
+                                    <option value="cappuccino" selected>Cappuccino </option> 
+                                    <option value="caffelatte">Caffe Latte</option>
+                                    <option value="mocha">Mocha</option>
+                                    <option value="coldbrew.">Cold Brew</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Serving Temperature:</td>
+                            <td>
+                                <input type="radio" name="servingtemp" checked>Hot
+                                <input type="radio" name="servingtemp">Iced
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Cup Size:</td>
+                            <td>
+                                <input type="radio" name="cupsize">Regular(8 oz)
+                               <input type="radio" name="cupsize" checked>Medium(12 oz)
+                               <input type="radio" name="cupsize">Large(16 oz)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Add-ons/ Extras:</td>
+                            <td>
+                                <input type="checkbox" name="addons">Extra Shot of Espresso<br>
+                                <input type="checkbox" name="addons" checked>Whipped Cream<br>
+                                <input type="checkbox" name="addons">Caramel Drizzle<br>
+                                <input type="checkbox" name="addons">Oat Milk Substitute (+Rs. 150)
+                            </td>
+                        </tr>
+                    </table>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Delivery Notes & Special Requests</legend>
+                <p>Specify sweetness, extra hot temperature, or dietary requirements:</p>
+                    <textarea name="instructions" rows="4" cols="45" placeholder="e.g. Less sugar, extra hot milk ..."></textarea>
+            </fieldset>
+            
+            <br>
+            <input type="submit" value="Confirm & Submit">
+            <input type="reset" value="Reset form">
+            </form>
+
+            <div align="center">
+                <p>&copy; 2026 Campus Brew - Department of Statistics & Computer Science, University of Kelaniya.</p>
+            </div>
+    </body>
+</html>

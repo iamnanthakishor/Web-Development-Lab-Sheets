@@ -1,0 +1,23 @@
+<html>
+<head>
+    <link href="default.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .highlight {
+            color: darkorange;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Cascading Style Sheets Priority Demo</h2>
+
+    <p class="highlight">
+        This paragraph uses the .highlight class. Its color is darkorange because the internal style sheet is placed after the external style sheet link in the head section, overriding the external purple color while retaining the 14pt font size.
+    </p>
+
+    <p class="highlight" style="color: red;">
+        This paragraph has inline styling. Its color is red because inline CSS has the highest priority and overrides both internal and external style sheets.
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-color: #f4f6f9;
+    background-image: url("images/watermark.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 120px 120px;
+    background-attachment: fixed;
+    margin-right: 150px;
+    font-family: "Arial", sans-serif;
+}
+.ribbon-card {
+    background: #0f2b3c url("images/gradient_bar.png") repeat-x top left;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box-cover, .box-contain {
+    width: 45%;
+    height: 160px;
+    display: inline-block;
+    border: 2px dashed #0f2b3c;
+    vertical-align: top;
+    margin-right: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box-cover {
+    background-image: url("images/pattern.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-contain {
+    background-image: url("images/pattern.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.label {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-family: monospace;
+    border-radius: 3px;
+}
